@@ -9,7 +9,7 @@ var io = require('socket.io')(server, {
         methods: ["GET", "POST"]
     }
 });
-//start websocket
+//start websocket 
 server.listen(3000, () => {
     console.log("Socket.io server is listenin on port 3000");
 });
